@@ -15,8 +15,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         />
-        <link rel="stylesheet" href="./css/reset.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
     <body>
         <!--Шапка-->
@@ -89,11 +88,7 @@
                 <h1 class="hero__title">
                     Эффективные решения для вашего бизнеса
                 </h1>
-                <button
-                    class="hero__button button"
-                    type="button"
-                    data-modal-open
-                >
+                <button class="hero__button" type="button" data-modal-open>
                     Заказать услугу
                 </button>
             </section>
@@ -170,7 +165,7 @@
             <!--Специфика работы-->
             <section class="section">
                 <div class="conteiner">
-                    <h3 class="example__title">Чем мы занимаемся</h3>
+                    <h3 class="title">Чем мы занимаемся</h3>
                     <ul class="example__list">
                         <li class="example__item">
                             <div class="img--conteiner">
@@ -211,7 +206,7 @@
             <!--Сотрудники команды-->
             <section class="section section--bgc">
                 <div class="conteiner">
-                    <h2 class="team__title">Наша команда</h2>
+                    <h2 class="title">Наша команда</h2>
                     <ul class="team__list">
                         <li class="team__item">
                             <img
@@ -485,7 +480,7 @@
             <!--Клиенты-->
             <section class="section">
                 <div class="conteiner">
-                    <h3 class="clients__title">Постоянные клиенты</h3>
+                    <h3 class="title">Постоянные клиенты</h3>
                     <ul class="clients__list">
                         <li class="clients__item">
                             <a href="" class="clients__link">
@@ -640,9 +635,7 @@
                 </div>
                 <div class="subscribe--conteiner">
                     <form>
-                        <label
-                            for="email"
-                            class="subscribe__title footer__title"
+                        <label for="email" class="subscribe__title"
                             >Подпишитесь на рассылку </label
                         ><input
                             type="email"
@@ -650,7 +643,7 @@
                             placeholder="E-mail"
                             id="email"
                         />
-                        <button type="submit" class="subscribe__button button">
+                        <button type="submit" class="subscribe__button">
                             Подписаться
                             <svg class="subscribe__icon" width="24" height="24">
                                 <use href="./img/icons.svg#icon-send"></use>
@@ -746,7 +739,7 @@
                         >
                     </label>
 
-                    <button type="submit" class="form__button button">
+                    <button type="submit" class="form__button">
                         Отправить
                     </button>
                 </form>
