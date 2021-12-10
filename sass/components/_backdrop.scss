@@ -7,5 +7,5 @@
 
     background-color: $backdropBgc;
 
-    transition: background-color $animation, visibility $hoverAnimation;
+    transition: $animation, visibility $hoverAnimation;
 }
