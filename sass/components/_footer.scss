@@ -1,8 +1,8 @@
 .footer {
     background-color: $footerBgc;
-}
-.footer--flex {
-    display: flex;
+    &--flex {
+        display: flex;
+    }
 }
 
 .address__list {
