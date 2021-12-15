@@ -22,9 +22,9 @@
         box-shadow: $boxShadowColorPortfolio;
     }
 }
-.button__list {
-    @include centredFlex;
-}
+// .button__list {
+//     @include centredFlex;
+// }
 .button__list--padding {
     padding-bottom: 50px;
 }

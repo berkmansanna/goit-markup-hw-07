@@ -1,12 +1,26 @@
 .clients__list {
-    display: flex;
+    @media screen and (min-width: $mobile) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 .clients__item {
     display: flex;
-
     width: 170px;
     height: 92px;
+
+    @media screen and (min-width: $mobile) {
+        width: calc((100% - 2 + 15px) / 2);
+        margin: 15px;
+    }
 }
+// .clients__item {
+//     margin-right: 30px;
+//     // &:last-child {
+//     //     margin-right: 0;
+//     // }
+// }
 .clients__link {
     @extend %social__link--styles;
 
@@ -22,13 +36,8 @@
     }
 }
 .clients__icon {
-    display: flex;
+    // display: flex;
     width: 106p;
     height: 60px;
     fill: currentColor;
-}
-.clients__item {
-    & + & {
-        margin-left: 30px;
-    }
 }

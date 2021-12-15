@@ -2,7 +2,17 @@
 .site-nav {
     display: flex;
 }
+.site-nav {
+    @media screen and (max-width: $mobile) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .site-nav__list {
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
     display: flex;
     align-items: center;
     margin-left: 93px;
@@ -13,6 +23,9 @@
     }
 }
 .header__contacts {
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
     @include centredFlex;
 
     margin-left: auto;
