@@ -25,6 +25,36 @@
                     <a href="/index.html" class="logo" lang="en"
                         >Web<span class="header__logo--black">Studio</span></a
                     >
+                    <button
+                        type="button"
+                        class="mobile-menu__button js-open-menu"
+                        aria-lable="Переключатель мобильноо меню"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu"
+                    >
+                        <svg width="40" height="40" class="mobile-menu__icon">
+                            <use
+                                href="./img/icons.svg#icon-menu"
+                            ></use>
+                        </svg>
+                    </button>
+                    
+                    <div class="mobile-menu js-menu-container" id="mobile-menu">
+                        <button
+                        type="button"
+                        class="mobile-menu__button mobile-menu__button--close js-close-menu"
+                        aria-lable="Переключатель мобильноо меню"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu"
+                    >
+                        <svg width="40" height="40" class="mobile-menu__icon">
+                            
+                            <use
+                                href="./img/icons.svg#icon-close"
+                            ></use>
+                        </svg>
+                    </button>
+                    </div>
                     <ul class="site-nav__list site-nav__list--flex">
                         <li class="site-nav__item">
                             <a
@@ -163,7 +193,7 @@
                 </div>
             </section>
             <!--Специфика работы-->
-            <section class="section">
+            <section class="section section--dn">
                 <div class="conteiner">
                     <h3 class="title">Чем мы занимаемся</h3>
                     <ul class="example__list">
@@ -745,6 +775,13 @@
                 </form>
             </div>
         </div>
+        
         <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
     </body>
 </html>
