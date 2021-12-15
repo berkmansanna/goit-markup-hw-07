@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .clients__list {
     @media screen and (min-width: $mobile) {
         display: flex;
@@ -5,6 +6,11 @@
         justify-content: space-between;
     }
 }
+=======
+// .clients__list {
+//     display: flex;
+// }
+>>>>>>> 9d623410febab08793c959f9a897f702aea03cc1
 .clients__item {
     display: flex;
     width: 170px;
@@ -41,3 +47,11 @@
     height: 60px;
     fill: currentColor;
 }
+<<<<<<< HEAD
+=======
+// .clients__item {
+//     & + & {
+//         margin-left: 30px;
+//     }
+// }
+>>>>>>> 9d623410febab08793c959f9a897f702aea03cc1
